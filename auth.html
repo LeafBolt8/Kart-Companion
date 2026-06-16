@@ -1,4 +1,10 @@
-<!doctype html><html><head><title>Smash Karts Match Tracker - Authentication</title><link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"><style>body {
+<!doctype html>
+<html>
+<head>
+<title>Smash Karts Match Tracker - Authentication</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+	body {
             width: 400px;
             min-height: 500px;
             padding: 20px;
@@ -17,4 +23,47 @@
             color: #ef4444;
             font-size: 0.875rem;
             margin-top: 4px;
-        }</style><script defer="defer" src="auth.js"></script></head><body class="bg-gray-100"><div class="auth-container"><h1 class="text-2xl font-bold text-center mb-6">Smash Karts Match Tracker</h1><div id="loginForm" class="bg-white p-6 rounded-lg shadow-md"><h2 class="text-xl font-semibold mb-4">Login</h2><div class="form-group"><label for="loginEmail">Email</label> <input type="email" id="loginEmail" class="border rounded p-2" required></div><div class="form-group"><label for="loginPassword">Password</label> <input type="password" id="loginPassword" class="border rounded p-2" required></div><div id="loginError" class="error-message"></div><button id="loginButton" class="w-full bg-blue-500 text-white py-2 rounded mt-4 hover:bg-blue-600">Login</button><p class="text-center mt-4">Don't have an account? <a href="#" id="showSignup" class="text-blue-500 hover:text-blue-600">Sign up</a></p></div><div id="signupForm" class="bg-white p-6 rounded-lg shadow-md hidden"><h2 class="text-xl font-semibold mb-4">Sign Up</h2><div class="form-group"><label for="signupEmail">Email</label> <input type="email" id="signupEmail" class="border rounded p-2" required></div><div class="form-group"><label for="signupPassword">Password</label> <input type="password" id="signupPassword" class="border rounded p-2" required></div><div class="form-group"><label for="confirmPassword">Confirm Password</label> <input type="password" id="confirmPassword" class="border rounded p-2" required></div><div id="signupError" class="error-message"></div><button id="signupButton" class="w-full bg-green-500 text-white py-2 rounded mt-4 hover:bg-green-600">Sign Up</button><p class="text-center mt-4">Already have an account? <a href="#" id="showLogin" class="text-blue-500 hover:text-blue-600">Login</a></p></div></div><script type="module" src="auth.js"></script></body></html>
+        }
+</style>
+            
+<script defer="defer" src="auth.js"></script>
+</head>
+<body class="bg-gray-100">
+            <div class="auth-container">
+                        <h1 class="text-2xl font-bold text-center mb-6">Smash Karts Match Tracker</h1>
+                        <div id="loginForm" class="bg-white p-6 rounded-lg shadow-md">
+                                    <h2 class="text-xl font-semibold mb-4">Login</h2>
+                                    <div class="form-group">
+                                                <label for="loginEmail">Email</label>
+                                                <input type="email" id="loginEmail" class="border rounded p-2" required>
+                                    </div>
+                                    <div class="form-group">
+                                                <label for="loginPassword">Password</label>
+                                                <input type="password" id="loginPassword" class="border rounded p-2" required>
+                                    </div>
+                                    <div id="loginError" class="error-message"></div>
+                                    <button id="loginButton" class="w-full bg-blue-500 text-white py-2 rounded mt-4 hover:bg-blue-600">Login</button>
+                                    <p class="text-center mt-4">Don't have an account? <a href="#" id="showSignup" class="text-blue-500 hover:text-blue-600">Sign up</a></p>
+                        </div>
+                        <div id="signupForm" class="bg-white p-6 rounded-lg shadow-md hidden">
+                                    <h2 class="text-xl font-semibold mb-4">Sign Up</h2>
+                                    <div class="form-group">
+                                                <label for="signupEmail">Email</label>
+                                                <input type="email" id="signupEmail" class="border rounded p-2" required>
+                                    </div>
+                                    <div class="form-group">
+                                                <label for="signupPassword">Password</label>
+                                                <input type="password" id="signupPassword" class="border rounded p-2" required>
+                                    </div>
+                                    <div class="form-group">
+                                                <label for="confirmPassword">Confirm Password</label>
+                                                <input type="password" id="confirmPassword" class="border rounded p-2" required>
+                                    </div>
+                                    <div id="signupError" class="error-message"></div>
+                                    <button id="signupButton" class="w-full bg-green-500 text-white py-2 rounded mt-4 hover:bg-green-600">Sign Up</button>
+                                    <p class="text-center mt-4">Already have an account? <a href="#" id="showLogin" class="text-blue-500 hover:text-blue-600">Login</a></p>
+                        </div>
+            </div>
+            <script type="module" src="auth.js"></script>
+</body>
+</html>
