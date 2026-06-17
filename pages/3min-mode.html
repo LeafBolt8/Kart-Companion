@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kart Companion - Custom Mode</title>
+    <title>Kart Companion - 3 Minute Mode</title>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
     <script src="chart.min.js"></script>
     <script src="visualizers.js"></script>
@@ -21,7 +21,7 @@
             margin: 0;
             padding: 0;
             background-color: var(--header-bg);
-            background-image: url('websiteBG.jpg');
+            background-image: url('images/websiteBG.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
@@ -89,8 +89,7 @@
             margin-bottom: 0.2em;
             text-transform: uppercase;
         }
-        
-        
+     
         .section {
             background: var(--container-bg);
             padding: 24px 24px 16px 24px;
@@ -189,15 +188,15 @@
 </head>
 <body>
     <div class="logo-container" style="text-align: center; margin: 20px 0;">
-        <img src="kcCharts.png" alt="Kart Companion Logo" style="max-width: 200px; height: auto;">
+        <img src="images/kcCharts.png" alt="Kart Companion Logo" style="max-width: 200px; height: auto;">
     </div>
     <nav class="nav-container">
         <div class="nav-content">
             <ul class="nav-list">
                 <li class="nav-item"><a href="visualizers.html" class="nav-link">All Stats</a></li>
-                <li class="nav-item"><a href="3min-mode.html" class="nav-link">3 Minute Mode</a></li>
+                <li class="nav-item"><a href="3min-mode.html" class="nav-link active">3 Minute Mode</a></li>
                 <li class="nav-item"><a href="special-mode.html" class="nav-link">Special Mode</a></li>
-                <li class="nav-item"><a href="custom-mode.html" class="nav-link active">Custom Mode</a></li>
+                <li class="nav-item"><a href="custom-mode.html" class="nav-link">Custom Mode</a></li>
                 <li class="nav-item"><a href="stats-numbers.html" class="nav-link">Stats In Numbers</a></li>
                 <li class="nav-item"><a href="match-history.html" class="nav-link">Match History</a></li>
                 <li class="nav-item"><a href="player-card.html" class="nav-link">My Smash Kart Card</a></li>
@@ -209,9 +208,8 @@
 
     <div class="container">
         <div class="header">
-            <h1 class="logo-title">Custom Mode Stats</h1>
+            <h1 class="logo-title">3 Minute Mode Stats</h1>
         </div>
-        
 
         <div class="section">
             <div class="section-title">Stats Per Game</div>
@@ -294,12 +292,12 @@
             <canvas id="mapDistributionChart" class="chart-canvas"></canvas>
         </div>
     </div>
-    <script src="custom-mode.js"></script>
+    <script src="3min-mode.js"></script>
     <script src="charts.js"></script>
     <footer class="footer">
         <div class="footer-social-icons">
-            <a href="https://discord.gg/XgYvDEgB8n" target="_blank"><img src="discord_logo.png" alt="Discord" class="social-icon" style="background-color: transparent;"></a>
-            <a href="https://www.youtube.com/@yourdogsk" target="_blank"><img src="youtube_logo.webp" alt="YouTube" class="social-icon" style="background-color: transparent;"></a>
+            <a href="https://discord.gg/XgYvDEgB8n" target="_blank" rel="noopener"><img src="images/discord_logo.png" alt="Discord" class="social-icon" style="background-color: transparent;"></a>
+            <a href="https://www.youtube.com/@yourdogsk" target="_blank" rel="noopener"><img src="images/youtube_logo.webp" alt="YouTube" class="social-icon" style="background-color: transparent;"></a>
         </div>
         <div class="footer-links">
             <a href="https://leafbolt8.github.io/Kart-Companion/">About</a>
